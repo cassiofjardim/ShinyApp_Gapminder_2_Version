@@ -1,0 +1,13 @@
+name: Gapminder_Golem
+title: Gapminder_Golem
+username:
+account: cfjardim
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7805633
+bundleId: 6587711
+url: https://cfjardim.shinyapps.io/Gapminder_Golem/
+when: 1670114552.84803
+lastSyncTime: 1670114552.84804
+asMultiple: FALSE
+asStatic: FALSE

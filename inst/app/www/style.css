@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+
+
+
+}
+
+html {
+font-size: 16px;
+}
+
+*,
+*::after,
+*::before{
+       box-sizing:border-box;
+      /* margin:0 !important;*/
+      background: ;
+      color: ;
+
+
+
+  }
+
+h2,h4,h5,h6{
+
+    font-size: 1em;
+    color: black !important;
+    font-weight: 300;
+
+  }
+
+  h1{
+     font-size: 1.75em;
+    color: black !important;
+    font-weight: 700;
+
+  }
+
+  h6{
+    padding: 0 0.5em;
+  }
+
+span {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+a{
+  color: black;
+}
+
+p{
+  margin: 0px;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.gapminder_logo {
+    padding: 2em;
+    height: 5.5rem;
+    position: absolute;
+    top: -2rem;
+    left: 75rem;
+}
+
+::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: whitesmoke;        /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #333F47;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid whitesmoke;  /* creates padding around scroll thumb */
+}
+
+p.card_title {
+    color: whitesmoke;
+}
+
+.container-fluid {
+     padding-right: 0px;
+     padding-left: 0px;
+     margin-right: 0px;
+     margin-left:  0px;
+}
+
+#icons {
+  display: flex;
+    font-weight: 900;
+
+    font-size: 1.5em;
+
+    align-items: center;
+    gap: 2em;
+}
+
+/*************** DOWNLOAD BUTTON ***********************/
+
+.btn-default {
+    background-color: #f4f4f4;
+    color: #444;
+    border-color: #ddd;
+    position: absolute;
+    top: 0;
+    right: 2em;
+    font-weight: 600;
+    font-size: .75em;
+    margin: 0.25em;
+}
+
+
+#panel_header {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    background: white;
+    padding: 0 2em;
+    margin-bottom: 1em;
+}
+
+
+
+.tab-pane {
+    padding: 1em;
+}
+
+
+/**********************************************************/
+/******************SIDEBAR ********************************/
+/**********************************************************/
+.main-header,
+aside#sidebarCollapsed,
+.skin-blue .main-header .navbar,
+span.logo p,
+.skin-blue .main-header .logo{
+  background: #254948 !important;
+}
+
+.skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li:hover>a {
+    color: #fff;
+    background: #546a72 !important;
+    border-left-color: transparent;
+    border-radius: 12px;
+    margin: 0 0;
+}
+
+.os-padding {
+
+  background: #254948 !important;
+}
+
+aside#sidebarId {
+  background: #254948 !important;
+}
+
+.custom-control.custom-switch.mx-2.mt-2 {
+    display: none;
+}
+
+/**********************************************************/
+/************ SLIDERS *********************/
+/**********************************************************/
+
+.date_slider{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+
+    margin-right: 1em;
+    padding: 0 2em;
+    position: relative;
+    bottom: 0em;
+
+}
+
+.form-group.shiny-input-container {
+
+}
+
+
+
+.irs--shiny .irs-handle {
+        top: 17px;
+    width: 22px;
+    height: 22px;
+    border: 2px solid whitesmoke;
+    background-color: #606A72;
+    box-shadow: 1px 1px 3px rgb(255 255 255 / 30%);
+    border-radius: 22px;
+
+}
+
+/* BARRA BARRA*/
+.irs--shiny .irs-line{
+  top: 25px;
+    height: 8px !important;
+    background: linear-gradient(to bottom, #dedede -50%, #fff 150%);
+    background-color: #606A72;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+}
+
+.irs--shiny .irs-bar{
+    top: 25px;
+    height: 5px !important;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #3a5646;
+    background: #606A72;
+}
+
+.irs--shiny .irs-handle {
+    top: 19px;
+    width: 15px;
+    height: 15px;
+    border: 2px solid whitesmoke;
+    background-color: #606A72;
+    box-shadow: 1px 1px 3px rgb(255 255 255 / 30%);
+    border-radius: 22px;
+}
+
+/* Fonte dos sliders*/
+
+.irs--shiny .irs-from, .irs--shiny .irs-to, .irs--shiny .irs-single {
+    color: whitesmoke;
+    text-shadow: none;
+    padding: 1px 3px;
+    background-color: #606A72;
+    border-radius: 3px;
+    font-size: 11px;
+    line-height: 1.333;
+    font-weight: 900;
+}
+
+
+.irs-grid > * {
+    font-weight: 900 !important;
+}
+
+span.irs-grid span {
+    font-size: .65em;
+    font-weight: 700 !important;
+}
+
+/**********************************/
+/***********GENERAL OVERVIEW*******/
+/**********************************/
+#panel_header {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    background: #254948;
+    color: whitesmoke;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+#page{
+  display: grid;
+  grid-template-areas: 'header''second''third';
+  gap: 2em;
+}
+
+.pretty {
+    position: relative;
+    display: flex;
+    margin-right: 1em;
+    white-space: nowrap;
+    line-height: 1;
+    flex-direction: revert;
+    margin-bottom: 0.5em;
+}
+
+h2.split_chart_title {
+    background: #254948;
+    margin: 0px;
+    padding: 1em;
+    color: whitesmoke !important;
+    font-size: 1.75rem;
+    font-weight: 600;
+    font-family: 'Source Sans Pro';
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+#page #header{
+
+}
+
+#page #cards,
+#page #select_inputs_div{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2em;
+  background: white;
+  padding: 1em;
+}
+
+#page #header,
+#page #second_row,
+#page #third_row{
+
+background: ;
+padding: 1em;
+
+}
+
+
+
+/**********************************/
+/***********COUNTRIES *************/
+/**********************************/
+.tabbable {
+    margin-top: 0.5em;
+}
+
+
+#countries_panels_rows_1,
+#countries_panels_rows_2{
+  padding: 1em 0;
+}
+
+#countries_panels_rows_1{
+  margin-top: 3em;
+}
+
+.well.cinza {
+    padding: 0px;
+    margin: 0px;
+    border: 2px solid #254948;
+}
+
+.well.cinza h1 {
+    margin: 0px;
+    background: #254948;
+    color: whitesmoke !important;
+    padding: 0.5em 0.5em;
+   font-family: 'Playfair Display', serif !important;
+   font-weight: 300;
+    font-size: 1.25em;
+    position: relative;
+}
+
+#panels_cards{
+display: flex;
+  justify-content: space-evenly;
+  gap: 2em;
+padding: 1em 0;
+}
+
+#panels_fluidrows{
+
+  padding: 1em;
+}
+
+
+ul#tela2-Left_Tab_1 li a,
+ul#tela2-Right_Tab_1 li a,
+ul#country_usa_panels li a
+{
+    border-bottom: 2px solid;
+    padding: 0.5em;
+    /* border-radius: 5px; */
+    margin: 0em 0.5em;
+    font-weight: 600;
+}
+
+
+
+
+
+
+/* MEDIA QUERY*/
+
+
+
