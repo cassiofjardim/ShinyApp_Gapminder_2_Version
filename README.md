@@ -1,4 +1,4 @@
-# ShinyApp Gapminder 2º Version
+# ShinyApp Gapminder 2º Version: UI created using CSS only.
 
 <h1 align="center" id="title">Hello 👋, My name is Cassio Felix</h1>
 
@@ -9,7 +9,7 @@
     gap: 3em;
 ">
     
-  <a href="mailto:sfg99709aktech+github@gmail.com" target="blank">
+  <a href="cassiofjardim@gmail.com" target="blank">
   <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="gmail" height="24" width="40"/></a>
    
   <a href="https://www.linkedin.com/in/cassio-f%C3%A9lix-462666b1/" target="blank">
