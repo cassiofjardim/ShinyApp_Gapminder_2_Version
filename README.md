@@ -1,13 +1,20 @@
 # ShinyApp Gapminder 2º Version: UI created using CSS only.
 
+<style>
+ 
+#contact{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+}
+</style>
+
+
 <h1 align="center" id="title">Hello 👋, My name is Cassio Felix</h1>
 
 <!-- Social Media & Contact Info -->
 <h3 align="center" id="contact-info">Connect with me</h3>
-<div style = "display: flex;
-    justify-content: center;
-    gap: 3em;
-">
+<div id="contact">
     
   <a href="cassiofjardim@gmail.com" target="blank">
   <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="gmail" height="24" width="40"/></a>
