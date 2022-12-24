@@ -90,8 +90,8 @@ countries_UI <- function(id, countries_names,continent_countries_names, statisti
                                            # '2007-2021'
                                          )
                                        )),
-                                       p("In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate.",
-                                         tags$img(src = 'img/united_nations.svg'),
+                                       p("",
+
                                          style = 'display: flex; justify-content: space-between;')
                                      ),
                                      tabPanel(
@@ -118,8 +118,8 @@ countries_UI <- function(id, countries_names,continent_countries_names, statisti
 
                                      ),
 
-                                     p("In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate.",
-                                       tags$img(src = 'img/united_nations.svg'),
+                                     p("",
+
                                        style = 'display: flex; justify-content: space-between;')),
                                      tabPanel(
                                        title = tags$img("GDP Percapita",src = 'www/img/gdp.svg',  width = '26px', height = '26px'),
@@ -144,8 +144,8 @@ countries_UI <- function(id, countries_names,continent_countries_names, statisti
                                        )),
 
 
-                                       p("In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate.",
-                                         tags$img(src = 'www/img/united_nations.svg'),
+                                       p("",
+
                                          style = 'display: flex; justify-content: space-between;')
 
                                      )
@@ -187,7 +187,7 @@ countries_UI <- function(id, countries_names,continent_countries_names, statisti
                                          ), height = 250)
                                        ),
 
-                                       p("In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate.")
+                                       p("")
                                      ),
 
                                      tabPanel(
@@ -203,7 +203,7 @@ countries_UI <- function(id, countries_names,continent_countries_names, statisti
                                        )), height = 250)
                                      ),
 
-                                     p("In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate.")
+                                     p("")
 
                                      ),
 
@@ -218,7 +218,7 @@ countries_UI <- function(id, countries_names,continent_countries_names, statisti
                                        )), height = 250)
                                      ),
 
-                                     p("In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate."))
+                                     p(""))
 
 
 

@@ -6,16 +6,6 @@ dash_df <- gapminder::gapminder %>% group_split(continent) %>%
   set_names(sort(unique(factor(gapminder::gapminder$continent))))
 
 
-
-# writexl::write_xlsx(x = countries_america_df, path = 'cursor_file.xlsx')
-
-# General OVerview
-# dash_df %>% map(~ .x %>% summarise(media_lifeexp = mean(lifeExp),
-#                                   media_pop = mean(pop),
-#                                   media_gdpPerc = mean(gdpPercap)
-# ))
-
-
 # United States
 us_df <- gapminder::gapminder %>% filter(country == 'United States') %>%
   rename(lifeExp_us = lifeExp,pop_us = pop,gdp_us = gdpPercap)
